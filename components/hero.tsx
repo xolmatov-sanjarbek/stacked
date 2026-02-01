@@ -4,11 +4,11 @@ import { Badge } from "./ui/badge";
 
 const Hero = () => {
   return (
-    <div>
-      <div className="absolute inset-0 gradient-bg" />
-      <div className="absolute top-1/4 left-1/4 w-96 h-96 bg-cyan-400/10 rounded-full blur-3xl animate-float" />
+    <div className="z-20">
+      <div className="absolute inset-0 gradient-bg pointer-events-none" />
+      <div className="absolute top-1/4 left-1/4 w-96 h-96 bg-cyan-400/10 rounded-full blur-3xl animate-float pointer-events-none" />
       <div
-        className="absolute bottom-1/4 right-1/4 w-80 h-80 bg-blue-500/10 rounded-full blur-3xl animate-float"
+        className="absolute bottom-1/4 right-1/4 w-80 h-80 bg-blue-500/10 rounded-full blur-3xl animate-float pointer-events-none"
         style={{ animationDelay: "-4s" }}
       />
       <div className="absolute inset-0 noise opacity-[0.06] pointer-events-none" />
@@ -33,7 +33,7 @@ const Hero = () => {
           {/* Primary CTA */}
           <Button
             size="lg"
-            className="group relative overflow-hidden
+            className="group relative overflow-hidden z-100
                         rounded-xl px-8 py-6 text-xl font-semibold
                       text-black
                         bg-linear-to-r from-sky-400 to-cyan-400
