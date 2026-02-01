@@ -13,9 +13,12 @@ const Navbar = () => {
             <div className="bg-sky-500/90 p-2 rounded-xl shadow-md">
               <Code2 className="text-white w-6 h-6" />
             </div>
-            <h2 className="text-2xl font-bold text-white tracking-tight">
+            <Link
+              href="/"
+              className="text-2xl font-bold text-white tracking-tight"
+            >
               Stacked
-            </h2>
+            </Link>
           </div>
 
           {/* Links */}
