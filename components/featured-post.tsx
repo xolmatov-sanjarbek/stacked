@@ -132,7 +132,10 @@ const RecentPosts = () => {
                   </div>
                 </div>
 
-                <Button className="w-full group" asChild>
+                <Button
+                  className="w-full group bg-cyan-500 hover:bg-sky-500"
+                  asChild
+                >
                   <Link href="/article">
                     Read Article
                     <ArrowRight className="w-4 h-4 ml-2 group-hover:translate-x-1 transition-transform" />
