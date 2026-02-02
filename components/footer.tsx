@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { Code2, Github, Twitter, Rss } from "lucide-react";
+import { Code2, Github, Twitter } from "lucide-react";
 
 const Footer = () => {
   return (
@@ -86,22 +86,16 @@ const Footer = () => {
               <p className="text-white font-semibold">Follow</p>
               <div className="flex gap-4">
                 <Link
-                  href="#"
+                  href="https://github.com/xolmatov-sanjarbek"
                   className="p-3 rounded-xl bg-white/5 hover:bg-white/10 transition"
                 >
                   <Github className="w-5 h-5 text-white" />
                 </Link>
                 <Link
-                  href="#"
+                  href="https://x.com/xolmatov_sanjar"
                   className="p-3 rounded-xl bg-white/5 hover:bg-white/10 transition"
                 >
                   <Twitter className="w-5 h-5 text-white" />
-                </Link>
-                <Link
-                  href="#"
-                  className="p-3 rounded-xl bg-white/5 hover:bg-white/10 transition"
-                >
-                  <Rss className="w-5 h-5 text-white" />
                 </Link>
               </div>
             </div>
