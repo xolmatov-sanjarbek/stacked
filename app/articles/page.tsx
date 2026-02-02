@@ -155,7 +155,7 @@ const ArticlesPage = () => {
       author: "James Clear",
       authorImage: "https://api.dicebear.com/7.x/avataaars/svg?seed=James",
       date: "Jan 8, 2025",
-      readTime: "15 min read",
+      readTime: "14 min read",
       topic: "DevOps",
       featured: false,
     },
