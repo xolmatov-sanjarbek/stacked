@@ -1,7 +1,6 @@
 import {
   Github,
   Twitter,
-  Linkedin,
   Mail,
   Code2,
   BookOpen,
